@@ -1,0 +1,54 @@
+# Ortam değişkenleri — asla commit etme
+.env
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Sanal ortamlar
+.venv/
+venv/
+env/
+ENV/
+.virtualenv/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Debug çıktıları
+debug_screenshot.png
+debug_results.png
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Loglar
+*.log
+logs/
